@@ -1,0 +1,187 @@
+/* Example CSS for a Personal Portfolio Website */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color or image */
+  body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation menu styles */
+  .navbar {
+    background-color: #a78f8f;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    color: #110404;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #140a0a;
+    font-size: 16px;
+    margin-right: 20px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #f8f8f8;
+  }
+  
+  /* Main sections */
+  .section {
+    padding: 80px 0;
+  }
+  
+  /* Home section */
+  #home {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    color: #0f0000;
+    text-align: center;
+  }
+  
+  #home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #home p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  /* About section */
+  #about {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Services section */
+  #services {
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  #services h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .service {
+    margin-bottom: 40px;
+  }
+  
+  .service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 16px;
+  }
+  
+  /* Portfolio section */
+  #portfolio {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 40px;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Contact section */
+  #contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #f8f8f8;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      background-color: #333;
+    }
+    .navbar-nav {
+      margin-top: 20px;
+    }
+    .nav-link {
+      margin-right: 0;
+    }
+    .contact-form {
+      max-width: 100%;
+    }
+  }
+  body {
+    background-color: rgb(78, 47, 1);
+  }
+  h1 {
+    color: rgb(3, 0, 0);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
